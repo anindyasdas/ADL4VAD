@@ -26,5 +26,5 @@ python adl_train.py --dataset_root=./data/mvtec_anomaly_detection --dataset=mvte
 For Evaluation run **eval_adl.py** script with required arguments.
 Example:
 ```
-python eval_adl.py --dataset_root=./data/mvtec_anomaly_detection --dataset=mvtec --classname=bottle --experiment_dir=./experiment --cont=0.1  --weight_name=model_bal_10.pkl --report_name=result_report_mvtec_bal10
+python eval_adl.py --dataset_root=./data/mvtec_anomaly_detection --dataset=mvtec --anomaly_source_path ./data/dtd/images --classname=bottle --experiment_dir=./experiment --cont=0.1  --weight_name=model_bal_10.pkl --report_name=result_report_mvtec_bal10
 ```
